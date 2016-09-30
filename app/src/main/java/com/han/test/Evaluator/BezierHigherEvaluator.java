@@ -6,7 +6,7 @@ import com.han.test.Bean.Point;
 import com.han.test.utils.BezierUtil;
 
 /**
- * Created by hcy on 16/9/29.
+ * Created by hdz on 16/9/29.
  */
 public class BezierHigherEvaluator implements TypeEvaluator<Point> {
 

@@ -17,7 +17,7 @@ import com.han.test.helper.UtilsHelpr;
 import java.util.Random;
 
 /**
- * Created by hcy on 16/9/29.
+ * Created by hdz on 16/9/29.
  */
 public class RiseLove extends RelativeLayout {
 
@@ -78,8 +78,8 @@ public class RiseLove extends RelativeLayout {
         start.y = screenHeight - UtilsHelpr.dp2px(context, 50);
         end.x = screenWidth / 2;
         end.y = 0;
-        Log.d("tag", "onMeasure()=" + start.x + "--" + start.y);
-        Log.d("tag", "onMeasure()=" + end.x + "--" + end.y);
+        Log.d("TAG", "onMeasure()=" + start.x + "--" + start.y);
+        Log.d("TAG", "onMeasure()=" + end.x + "--" + end.y);
 
         control1.x = random.nextInt(screenWidth / 2);
         control1.y = random.nextInt(screenHeight / 2) + screenHeight / 2;
