@@ -12,7 +12,7 @@ import com.han.test.widget.HeartView;
 import com.han.test.widget.RiseLove;
 
 /**
- * Created by hcy on 16/9/29.
+ * Created by hdz on 16/9/29.
  */
 public class HeartActivity extends Activity {
 

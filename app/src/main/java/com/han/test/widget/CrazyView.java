@@ -17,7 +17,7 @@ import com.han.test.helper.UtilsHelpr;
 import java.util.Random;
 
 /**
- * Created by hcy on 16/9/29.
+ * Created by hdz on 16/9/29.
  */
 public class CrazyView extends RelativeLayout {
 
