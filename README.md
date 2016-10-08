@@ -216,7 +216,7 @@
     }
 
     private void riseHeart(final HeartView hv) {
-		/* 前500ms让心形添加透明度动画，伸缩动画 */
+		/* 前3000ms让心形添加透明度动画，伸缩动画 */
         ObjectAnimator alphaAnimator = ObjectAnimator.ofFloat(hv, "alpha", 0.3f, 1.0f);
         ObjectAnimator scaleXAnimator = ObjectAnimator.ofFloat(hv, "scaleX", 0.2f, 1.0f);
         ObjectAnimator scaleYAnimator = ObjectAnimator.ofFloat(hv, "scaleY", 0.2f, 1.0f);
